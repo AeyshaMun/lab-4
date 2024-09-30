@@ -291,7 +291,7 @@ public class Application {
                 JOptionPane.showMessageDialog(jFrame, ex.getMessage());
             }
         });
-        theCard.add(new JLabel("The course you want to calculate the team average for:"));
+        theCard.add(new JLabel("The course you want to calculate the team average/top grade for:"));
         theCard.add(courseField);
         theCard.add(getAverageButton);
         theCard.add(getTopButton);
